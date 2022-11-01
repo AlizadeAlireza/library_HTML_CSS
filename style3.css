@@ -1,0 +1,128 @@
+@font-face{
+    font-family: 'IranSanse';
+    src: url('fonts/Sans\ a4fran3.eot') format('eot'),
+    url('/fonts/Sans\ a4fran3.svg') format('svg'),
+    url('/fonts/Sans\ a4fran3.woff')format('ttf'),
+    url('fonts/Sans\ a4fran3.woff') format('woff');
+}
+
+body {
+    background-color: white;
+    font-family: 'IranSanse';
+
+}
+
+
+#menuHolder{
+    height: 60px;
+    background-color: whitesmoke;
+    padding: 15px;
+}
+
+#menuHolder ul{
+    list-style-type: none;
+
+}
+
+#menuHolder ul li {
+    float: right;
+    margin-left: 20px;
+    
+}
+
+#menuHolder ul li a {
+    color: black;
+    font-size: 18px;
+    text-decoration: transparent;
+    padding-left: 40px;
+}
+
+#bannerHolder img{
+    width: 100%;
+    height: auto
+}
+
+#bannerHolder{
+    position: relative;
+}
+
+#bannerHolder #SecondHolder{
+    position: absolute;
+    color: white;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    float: right;
+}
+
+#Rightbox{
+    width: 20%;
+    float: right;
+    padding: 10px;
+}
+
+#Rightbox p{
+    font-size: 1.13vw;
+}
+
+#Rightbox h1{
+    font-size: 3vw;
+}
+
+#Leftbox{
+    width: 30%;
+    float: left;
+    padding: 20px;
+}
+
+#Leftbox img{
+    width: 13%;
+    height: auto;
+    border: 1px solid transparent;
+
+}
+
+#Leftbox img:hover{
+    border: 1px solid white;
+
+}
+
+#logo{
+    width: 30px;
+    height: auto;
+    margin-left: 30px;
+}
+
+#holder{
+    background-color: yellow;
+    position: relative;
+}
+
+#greenDiv{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+
+#blueDiv{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#GoogleImage{
+    width: 50px;
+    height: auto;
+}
+
+#GoogleImage:hover{
+    width: 80px;
+    height: auto;
+}
+
+#GoogleLink{
+    text-decoration: transparent;
+}
